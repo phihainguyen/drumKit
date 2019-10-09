@@ -1,0 +1,44 @@
+html {
+  background: url("https://i.etsystatic.com/17507719/r/il/50bcbe/1660900362/il_1588xN.1660900362_31f0.jpg")
+    bottom center;
+  background-size: cover;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.key {
+  border-style: solid;
+  border-color: rgba(36, 35, 35, 0.865);
+  border-width: 0.2rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  transition: all 0.09s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(145, 137, 137, 0.447);
+  text-shadow: 0 0 0.5rem black;
+}
+kbd {
+  display: block;
+  font-size: 2.5rem;
+}
+.playing {
+  transform: scale(1.2);
+  border-color: #ff0000e5;
+  box-shadow: 0 0 2rem #bbff00d0;
+}
+.sound {
+  color: rgb(247, 0, 0);
+  text-shadow: 0 0.1rem 0.3rem#5a6008b6;
+  font-size: 1.2rem;
+  font-family: Helvetica, sans-serif;
+}
